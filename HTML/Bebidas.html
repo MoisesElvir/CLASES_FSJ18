@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bebidas</title>
+</head>
+<body>
+    <header>
+        <h1>Drinks to save</h1>
+        <nav>
+            <!-- listas ordenadas <ol> y listas desordenadas <ul> -->
+                <ul>
+                    <!--elementos de la lista <li>
+                        Pagina Principal, platillos, ubicacion
+                    -->
+                        <li>
+                            <!-- hipervinculos <a> redirecciona a un enlace o archivo que mandamos <a> existe la 
+                                propiedad href = Es la ruta donde vamos a redireccionar-->
+                                <a href="./index.html">Principal</a>
+                        </li>
+                        <li>
+                            <a href="./Bebidas.html">Bebidas</a>
+                        </li>
+                        <li>
+                            <a href="./Ubicacion.html">ubicacion</a>
+                        </li>
+                </ul>
+        </nav>
+        <section>
+            <div>
+                <p>
+                    <!-- esta etiqueta muestra un mensaje importante-->
+                    <Strong>Conoce Nuestros Mejores Bebidas</Strong>
+                </p>
+                <!--<iframe> adjunta videos, imagenes, documentos, codigo, Mapa de google-->
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/hkvjplXEq_M"
+                 title="YouTube video player" frameborder="0" allow="accelerometer; 
+                 autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture;web-share" allowfullscreen></iframe>
+            </div>
+            <div>
+
+                <!-- border: Muestra el dorbe del contenido
+                cellpadding: es el espacio del contenido con la celda
+                cellspacing: Es la forma como queremos que se vea el border             
+                -->
+                <table border="1" cellpading="5" cellspacing="0">
+                    <thead>
+                        <th>Bebidas</th>
+                        <th>Descripcion</th>
+                        <th>Precio</th>
+                    </thead>
+                    <tbody>
+                        <!--<tr> asigna Filas-->
+                        <tr>
+                        <!--Asigna Columnas-->
+                        <td>Cafe</td>
+                        <td>Nuestro mejor cafe con aroma natural</td>
+                        <td>$1.50</td>
+                        </tr>
+                        <tr>
+                        <!--Asigna Columnas-->
+                        <td>Jugo natural</td>
+                        <td>Jugo recien Exprimido de La fruta de temporada</td>
+                        <td>$1.00</td>
+                        </tr>
+                        <tr>
+                            <!--Asigna Columnas-->
+                            <td>Cafe Helado</td>
+                            <td>Pastel de Queso de la mejor calidad</td>
+                            <td>$1.50</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h3>Seccion de Postres</h3>
+                <table border="1" cellpading="5" cellspacing="0">
+                    <thead>
+                        <th>Postres</th>
+                        <th>Descripcion</th>
+                        <th>Precio</th>
+                    </thead>
+                    <tbody>
+                        <!--<tr> asigna Filas-->
+                        <tr>
+                        <!--Asigna Columnas-->
+                        <td>Tiramisu</td>
+                        <td>Nuestro mejor postre de  cafe con aroma natural</td>
+                        <td>$1.50</td>
+                        </tr>
+                        <tr>
+                        <!--Asigna Columnas-->
+                        <td>Caneladas</td>
+                        <td>Caneladas de La fruta de temporada</td>
+                        <td>$1.00</td>
+                        </tr>
+                        <tr>
+                            <!--Asigna Columnas-->
+                            <td>Pastel de Queso</td>
+                            <td>Pastel de Queso de la mejor calidad</td>
+                            <td rowspan="2">$1.50</td>
+                        </tr>
+                        <tr>
+                            <!--Asigna Columnas-->
+                            <td>Pastel de zanahoria</td>
+                            <td>Pastel de zanahoria de la mejor calidad</td>
+                        </tr>
+                        <tfoot>
+                            <tr>
+                                <td colspan="3">Sevillas Coffe</td>
+                            </tr>
+                        </tfoot>
+              </table>
+            </div>
+        </section>
+    </header>
+    
+</body>
+</html>
